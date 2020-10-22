@@ -9,7 +9,7 @@ CSCP 350-01
 Assignment 3: Syntax Checker
 
 
-2. All files summbitted
+2. All files submitted
 GenStack.h		//contains all functionality for a general stack
 FileProcessor.h		//helps opens and close files
 FileProcessor.cpp
