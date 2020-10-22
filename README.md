@@ -21,7 +21,7 @@ makefile 		//helps with compiling and running the files
 
 3. Any bugs/runtime issues
 I attempted to do some bug fixes on when the delimiters appear in chars and strings 
-(like "(this)" or '(' '['), and I was fairly successful in getting chars handled, but
+(like "(this)" or '(' '['). I was fairly successful in getting chars handled, but
 if there is a lone delimiter in the middle of a string, or a char with multiple characters,
 the program will take that char into account and throw an error. I'm not entirely sure
 how to handle this and I'm not sure if it's super important because the only cases that 
@@ -48,5 +48,5 @@ delimiters within chars (ex. '(','['...).
 	4) "./Assignment3 [insert file name with extention]" (ex. ./Assignment3 FileProcessor.cpp)
 	5) Follow along with the code's prompts
 	6) if you'd like to clean up the folder afterwards, you can run
-	   "make realclean" and it will delete all the extra fluff that was mades
+	   "make realclean" and it will delete all the extra fluff that was made
 
